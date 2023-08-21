@@ -1,0 +1,29 @@
+#footer > .container {
+    /* Align with the navbar container */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-content {
+    margin: 15px 0;
+    color: #999;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: #222222;
+}

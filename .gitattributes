@@ -1,0 +1,20 @@
+# Normalise line endings:
+* eol=lf
+
+# Text files:
+*.php   text
+*.css   text
+*.js    text
+*.html  text
+*.txt   text
+
+# Avoid unreadable diffs
+# for generated text files (e.g. minified JS)
+*.min.* binary
+
+# Binary files:
+*.ico   binary
+*.gif   binary
+*.png   binary
+*.jpg   binary
+*.ttf   binary
